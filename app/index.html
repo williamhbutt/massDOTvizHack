@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>DigitasLBi Hackathon</title>
+        <title>MA DOT Hackathon</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -38,140 +38,6 @@
             <!-- viz goes here -->
         </div>
 
-        <div id="controls">
-            <div class="handle">
-                <a href="#" class="icon-list"></a>
-            </div>
-            <div class="wrapper">
-                <form role="form">
-                    <h2>Parameters</h2>
-                    <div class="volume">
-                        <h3>Volume</h3>
-                        <select class="form-control">
-                          <option>Traffic Volume</option>
-                          <option>Traffic Speed</option>
-                          <option>Road Events</option>
-                        </select>
-                    </div>
-                    <div class="routes">
-                        <h3>Routes</h3>
-                        <div class="list-group">
-                            <div class="list-group-item filter">
-                                <div class="input-group">
-                                    <input type="text" id="filter" name="filter" class="form-control" placeholder="Filter" />
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default icon-erase" type="button"></button>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="contained-list">
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Road</strong></div>
-                                <a href="#" class="list-group-item active">I-93 Northbound</a>
-                                <a href="#" class="list-group-item active">I-93 Southbound</a>
-                                <a href="#" class="list-group-item active active">I-90 Eastbound</a>
-                                <a href="#" class="list-group-item active">I-90 Westbound</a>
-                                <a href="#" class="list-group-item active">US 3 Northbound</a>
-                                <a href="#" class="list-group-item active">US 3 Southbound</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Commuter Rail</strong></div>
-                                <a href="#" class="list-group-item active">Rockport Inbound</a>
-                                <a href="#" class="list-group-item active">Rockport Outbound</a>
-                                <a href="#" class="list-group-item active">Newburyport Inbound</a>
-                                <a href="#" class="list-group-item active">Newburyport Outbound</a>
-                                <a href="#" class="list-group-item">Haverhill Inbound</a>
-                                <a href="#" class="list-group-item">Haverhill Outbound</a>
-                                <a href="#" class="list-group-item">Lowell Inbound</a>
-                                <a href="#" class="list-group-item">Lowell Outbound</a>
-                                <a href="#" class="list-group-item">Fitchburg Inbound</a>
-                                <a href="#" class="list-group-item">Fitchburg Outbound</a>
-                                <a href="#" class="list-group-item">Worcester Inbound</a>
-                                <a href="#" class="list-group-item">Worcester Outbound</a>
-                                <a href="#" class="list-group-item">Needham Heights Inbound</a>
-                                <a href="#" class="list-group-item">Needham Heights Outbound</a>
-                                <a href="#" class="list-group-item">Forge Park/495 Inbound</a>
-                                <a href="#" class="list-group-item">Forge Park/495 Outbound</a>
-                                <a href="#" class="list-group-item">Wickford Junction Inbound</a>
-                                <a href="#" class="list-group-item">Wickford Junction Outbound</a>
-                                <a href="#" class="list-group-item">Greenbush Inbound</a>
-                                <a href="#" class="list-group-item">Greenbush Outbound</a>
-                                <a href="#" class="list-group-item">Plymouth Inbound</a>
-                                <a href="#" class="list-group-item">Plymouth Outbound</a>
-                                <a href="#" class="list-group-item">Kingston Inbound</a>
-                                <a href="#" class="list-group-item">Kingston Outbound</a>
-                                <a href="#" class="list-group-item">Middleborough/Lakeville Inbound</a>
-                                <a href="#" class="list-group-item">Middleborough/Lakeville Outbound</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Light Rail</strong></div>
-                                <a href="#" class="list-group-item">Green Line A-Train Inbound</a>
-                                <a href="#" class="list-group-item">Green Line A-Train Outbound</a>
-                                <a href="#" class="list-group-item">Green Line B-Train Inbound</a>
-                                <a href="#" class="list-group-item">Green Line B-Train Outbound</a>
-                                <a href="#" class="list-group-item">Green Line C-Train Inbound</a>
-                                <a href="#" class="list-group-item">Green Line C-Train Outbound</a>
-                                <a href="#" class="list-group-item">Green Line D-Train Inbound</a>
-                                <a href="#" class="list-group-item">Green Line D-Train Outbound</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Ferry</strong></div>
-                                <a href="#" class="list-group-item">Hingham Inbound</a>
-                                <a href="#" class="list-group-item">Hingham Outbound</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Bus</strong></div>
-                                <a href="#" class="list-group-item">66 Inbound</a>
-                                <a href="#" class="list-group-item">66 Outbound</a>
-                                <a href="#" class="list-group-item">77 Inbound</a>
-                                <a href="#" class="list-group-item">77 Outbound</a>
-                            </div>
-                            <div class="list-group-item end"></div>
-                        </div>
-                    </div>
-                    <div class="annotations">
-                        <h3>Annotations</h3>
-                        <div class="list-group">
-                            <div class="list-group-item filter">
-                                <div class="input-group">
-                                    <input type="text" id="filter" name="filter" class="form-control" placeholder="Filter" />
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default icon-erase" type="button"></button>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="contained-list">
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Social Events</strong></div>
-                                <a href="#" class="list-group-item active">Fenway</a>
-                                <a href="#" class="list-group-item active">TD Garden</a>
-                                <a href="#" class="list-group-item active">Gillette Stadium</a>
-                                <a href="#" class="list-group-item active">Marathon</a>
-                                <a href="#" class="list-group-item active">Concert</a>
-                                <a href="#" class="list-group-item active">Public Event</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Road Conditions</strong></div>
-                                <a href="#" class="list-group-item">Icy</a>
-                                <a href="#" class="list-group-item">Oily</a>
-                                <a href="#" class="list-group-item">Damage</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Weather</strong></div>
-                                <a href="#" class="list-group-item">Rain</a>
-                                <a href="#" class="list-group-item">Snow</a>
-                                <a href="#" class="list-group-item">Blizzard</a>
-                                <a href="#" class="list-group-item">Clear</a>
-                                <div class="list-group-item heading"><span class="badge">0</span><strong>Sporting</strong></div>
-                                <a href="#" class="list-group-item">Red Sox</a>
-                                <a href="#" class="list-group-item">Bruins</a>
-                                <a href="#" class="list-group-item">Celtics</a>
-                                <a href="#" class="list-group-item">Patriots</a>
-                            </div>
-                            <div class="list-group-item end"></div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <footer>
-            <a href="#" class="icon-digitaslbi-logo"></a>
-        </footer>
-
-        <div id="loading">
-            <div class="absCenter">
-                <img src="images/digitaslbi-hack-logo.png" id="digitaslbi-id" />
-                <span>Reticulating Splines&#8230;</span>
-            </div>
-        </div>
-
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
@@ -189,7 +55,6 @@
         </script>
 
         <!-- build:js scripts/main.js -->
-        <script src="scripts/application.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 
