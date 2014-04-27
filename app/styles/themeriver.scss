@@ -1,0 +1,32 @@
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+#river .tooltip {
+  left: 80%;
+  width: 225px;
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: normal;
+  height: 50px;
+  opacity: 1;
+
+  p {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+

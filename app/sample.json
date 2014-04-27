@@ -1,0 +1,144 @@
+[
+    {
+        "day": "12/11/13",
+        "data": {
+            "i93": {
+                "volume": "6316",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "22504",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "7088",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/9/13",
+        "data": {
+            "i93": {
+                "volume": "11034",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "8587",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "21288",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/8/13",
+        "data": {
+            "i93": {
+                "volume": "1823",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "7568",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "3925",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/10/13",
+        "data": {
+            "i93": {
+                "volume": "7740",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "10786",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "4466",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/14/13",
+        "data": {
+            "i93": {
+                "volume": "16213",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "3663",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "10931",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/12/13",
+        "data": {
+            "i93": {
+                "volume": "4084",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "1683",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "4560",
+                "speed": null,
+                "event": []
+            }
+        }
+    },
+    {
+        "day": "12/13/13",
+        "data": {
+            "i93": {
+                "volume": "25198",
+                "speed": null,
+                "event": []
+            },
+            "i90": {
+                "volume": "17740",
+                "speed": null,
+                "event": []
+            },
+            "rt3": {
+                "volume": "6758",
+                "speed": null,
+                "event": []
+            }
+        }
+    }
+]
+
+

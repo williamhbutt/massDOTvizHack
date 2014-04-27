@@ -1,0 +1,15 @@
+/* TEAM */
+	
+	David Chiu
+	Hazel Elgart
+	Mehmood Khan
+	Peter Kamm
+	Rajkumar Singh
+	William Butt
+
+/* THANKS */
+
+	MassDOT
+	MassBigData
+	Massachusetts Technology Collaborative
+	hack/reduce
